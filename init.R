@@ -40,6 +40,7 @@ install.packages('ggplot2')
 install.packages('plotly')
 install.packages('tidyverse')
 install.packages('reshape2')
+install.packages("tiff")
 install.packages('OpenImageR')
 
 remotes::install_github('plotly/dashR', upgrade=TRUE)
