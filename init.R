@@ -40,9 +40,9 @@ install.packages('ggplot2')
 install.packages('plotly')
 install.packages('tidyverse')
 install.packages('reshape2')
-install.packages('OpenImageR')
+#install.packages('OpenImageR')
 
 remotes::install_github('plotly/dashR', upgrade=TRUE)
 remotes::install_github('facultyai/dash-bootstrap-components@r-release')
-remotes::install_github('mlampros/OpenImageR')
+devtools::install_github('mlampros/OpenImageR')
 
