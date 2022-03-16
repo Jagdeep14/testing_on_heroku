@@ -9,7 +9,7 @@ library(plotly)
 
 library(reshape2)
 library(tidyverse)
-library(OpenImageR)
+library(EBImage)
 #library(readxl)
 #library(hexbin)
 #library(ggthemes)
